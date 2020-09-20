@@ -1,9 +1,10 @@
-import  stats
+package  stats
 
 import {
 	"github.com/Qadriddin-dev/card/pkg/bank/types"
 	"fmt"
 }
+
 
 func ExampleAvg() {
 	payments := []types.Payment{
